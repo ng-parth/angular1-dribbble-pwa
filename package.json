@@ -6,7 +6,8 @@
   "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0",
-    "sw-precache": "^3.1.1"
+    "sw-precache": "^3.1.1",
+    "sw-toolbox": "^3.4.0"
   },
   "engines": {
     "node": "~4.2"
@@ -21,8 +22,12 @@
     "uncss": "uncss https://cherry-app.appspot.com/ --ignore .container, .details, .modal, .modal-open, .modal-backdrop, .modal-backdrop.fade, .fade, .modal-open .modal, .modal.in, .modal-dialog, .modal.fade, .modal-details, .modal-dialog, .modal.in .modal-dialog,  .modal.fade .modal-dialog, .modal-content, .container, .container, .close, button, input, select, textarea  > app/style/core.css"
   },
   "contributors": [
-    {"name": "Caio Zem"},
-    {"name": "Addy Osmani"}
+    {
+      "name": "Caio Zem"
+    },
+    {
+      "name": "Addy Osmani"
+    }
   ],
   "devDependencies": {
     "uglify-js": "^2.6.2"

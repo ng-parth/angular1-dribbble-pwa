@@ -1,7 +1,8 @@
 'use strict';
 
-var client_id = '251eccbc923c4d792366411d7587058eb2a4527dc7fcf2380879172479106e6f';
-var api_url = 'https://api.dribbble.com/v1{relative_url}?access_token=' + client_id; 
+var client_id = '646d469d2cc2a7559f748dba7823c243cff10ad037b937b703a846847dfaa0e7';
+var access_token = '428840dc01fa75d6ee10e8bbd62bccd01175f4788c62067c2508f178e752c1bb'
+var api_url = 'https://api.dribbble.com/v1{relative_url}?access_token=' + access_token;
 
 angular.module('Dribbble', [])
 
